@@ -1,0 +1,26 @@
+// steps of the app
+
+
+1. Ui Design :
+@ chakra components 
+@ Dark/Light
+@ Hard-coded
+
+2. nodejs_express
+@ mongodb 
+@ Authentication
+@ CRUD
+
+3. Connect frontend and backend
+@ code
+@ file upload
+
+4. chat app
+@ behind the scenes 
+@ image integration
+@ notification sounds
+@ seen/unseen
+
+5. deploy
+@ setup the server
+@ render
