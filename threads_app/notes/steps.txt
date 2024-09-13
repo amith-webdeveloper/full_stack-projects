@@ -1,0 +1,7 @@
+steps to build this app 
+
+
+@ step 1 : 
+- setup vite app [npm create vite@latest]
+- clean unwanted code in vite app [index.css , app.css]
+- setup chakra ui vite [chakraprovider in main.jsx]
