@@ -5,3 +5,20 @@ steps to build this app
 - setup vite app [npm create vite@latest]
 - clean unwanted code in vite app [index.css , app.css]
 - setup chakra ui vite [chakraprovider in main.jsx]
+- in main.jsx define colours , dark/light mode using 
+[ColorModeScript, extendTheme]
+- add ColorModeScript in main.jsx
+
+@ step 2 :
+- setup react-router-dom 
+- in App.jsx define routes
+- create [pages folder] > Userpage.jsx and PostPage.jsx 
+- import in App.jsx 
+- create [components folder] > Header.jsx and userHeader.jsx
+- import Header.jsx in App.jsx and userHeader.jsx in userPage.jsx
+- write code in Header.jsx and UserPage.jsx and UserHeader.jsx
+
+
+@ step 3 : 
+- write UserPost page
+- write Actions.jsx components

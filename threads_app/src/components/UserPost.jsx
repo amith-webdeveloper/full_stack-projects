@@ -30,7 +30,7 @@ const UserPost = ({ replies, likes, postImg, postTitle }) => {
               bottom={"0px"}
               right="-5px"
               padding={"2px"}
-            />
+            />  
             <Avatar
               size={"xs"}
               name="john doe"
@@ -48,7 +48,7 @@ const UserPost = ({ replies, likes, postImg, postTitle }) => {
               <Text fontSize={"sm"} fontWeight={"bold"}>
                 MarkZuckerburg
               </Text>
-              <Image src="/public/verified.png" w={4} h={4} ml={1}></Image>
+              <Image src="/verified.png" w={4} h={4} ml={1}></Image> 
             </Flex>
             <Flex gap={4} alignItems={"center"}>
               <Text fontSize={"sm"} color={"gray.light"}>

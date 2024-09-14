@@ -11,7 +11,7 @@ const Comment = ({username , userAvatar , createdAt , likes , comment}) => {
         <Avatar src={userAvatar} size={"sm"}></Avatar>
         <Flex gap={1} w={"full"} flexDirection={"column"}>
           <Flex
-            w={"full"}
+            w={"full"} 
             justifyContent={"space-between"}
             alignItems={"center"}
           >
@@ -36,7 +36,7 @@ const Comment = ({username , userAvatar , createdAt , likes , comment}) => {
       <Divider my={4}/>
       
     </>
-  );
+  ); 
 };
 
 export default Comment;
