@@ -1,0 +1,6 @@
+steps 
+
+@ step 1 : 
+- install package.json [npm init]
+- install dependencies express jsonwebtoken bcryptjs dotenv mongoose cookie-parser
+- install devdependency nodemon

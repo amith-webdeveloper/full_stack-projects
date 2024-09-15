@@ -22,3 +22,7 @@ steps to build this app
 @ step 3 : 
 - write UserPost page
 - write Actions.jsx components
+- write code for comment.jsx component
+
+@ step 4:
+- 
