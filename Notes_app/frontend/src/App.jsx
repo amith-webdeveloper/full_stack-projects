@@ -1,13 +1,19 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Login from './components/Login';
+import Home from './components/Home';
+import Profile from './components/Profile';
 
-import './App.css'
-
-function App() {
-
+const App = () => {
   return (
-    <>
-    <h1>hello</h1>
-    </>
-  )
-}
+    <Router>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/profile" element={<Profile />} />
+      </Routes>
+    </Router>
+  );
+};
 
-export default App
+export default App;
+
